@@ -1,4 +1,6 @@
 This is part of Cloudera Introduction to Hadoop and MapReduce course.
-The data file to be used is purchases.txt
-To run the code you need to setup cloudera VM and the use the command:
-hs mapperfile reducerfile InputFileDirectory OutputFileDirectory
+For the data file purchases.txt I have implemented the below 4 mapper/reducer functions:
+      ItemSalesMapper.py
+      ItemSalesReducer.py
+      StoreMaxSaleMapper.py
+      StoreMaxSaleReducer.py
